@@ -1,6 +1,9 @@
 # python_for_kids
 learning python together....\
-Jim's email: jim.duan@gmail.com 
+------------------------------------------------------- \
+meeting time: 3:30pm - 4:30pm each tuesday and thursday \
+Jim's email: jim.duan@gmail.com \
+-------------------------------------------------------
 
 ## Day 1 
 ### Preparation:
