@@ -16,4 +16,9 @@ udacity week 1 & 2 courses
 ### Project:
 ascii art: how does my dog look like... 
 
-
+## Day 2
+### Lecture:
+Self studying on videos 1-19 in Lesson 4 \
+https://www.udacity.com/course/introduction-to-python--ud1110
+### Project:
+You own Rock/Paper/Scissors game.
