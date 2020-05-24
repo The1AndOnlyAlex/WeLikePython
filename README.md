@@ -31,9 +31,9 @@ https://classroom.udacity.com/courses/ud1110
 Enable local build & Turtle GUI \
 Step 1) Install VS-Code: https://code.visualstudio.com/download \
 Step 2) Install Python in VS-Code: https://code.visualstudio.com/docs/languages/python \
-Step 3) Run your Rock/Paper/Scissors game on VS-Code \
+Step 3) Run your Rock/Paper/Scissors game on VS-Code. Try the Debugging feature; instruction is from the link above \
 Step 4) Read the document for Python Turtle: https://docs.python.org/3.3/library/turtle.html \
-Step 5) Try to run your first turtle: https://www.lisadean.net/linting-in-visual-studio-code-for-python-turtle-graphics/
+Step 5) (Optinal) Try to run your first turtle: https://www.lisadean.net/linting-in-visual-studio-code-for-python-turtle-graphics/
 
 
 
