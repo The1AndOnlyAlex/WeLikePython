@@ -22,11 +22,14 @@ while user_input != "q":
             print("Paper v Paper: TIE")
         else:
             print("Paper v Scissors: YOU LOSE")
-    else:
+    elif user_input == 's':
         if computer == '1':
             print("Scissors v Rock: YOU LOSE")
         elif computer == '2':
             print("Scissors v Paper: YOU WIN")
         else:
             print("Scissors v Scissors: TIE")
+    else:
+        print("Invalid")
+
 print("{<>}Thank you for Playing!{<>}")
