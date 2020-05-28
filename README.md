@@ -35,6 +35,14 @@ Step 3) Run your Rock/Paper/Scissors game on VS-Code. Try the Debugging feature;
 Step 4) Read the document for Python Turtle: https://docs.python.org/3.3/library/turtle.html \
 Step 5) (Optinal) Try to run your first turtle: https://www.lisadean.net/linting-in-visual-studio-code-for-python-turtle-graphics/
 
+## Day 4
+### Lecture:
+Finish all videos in Lesson 4 \
+https://classroom.udacity.com/courses/ud1110
+### Project:
+1) Two boxes by Turtle
+2) Try another shape ...
+
 
 
 
