@@ -43,6 +43,11 @@ https://classroom.udacity.com/courses/ud1110
 1) Two boxes by Turtle
 2) Try another shape ...
 
-
+## Day 5
+Studying on videos 1-8 in Lesson 3 \
+Studying on all videos in Lesson 5 \
+https://classroom.udacity.com/courses/ud1110
+### Project:
+Snowflakes by Turtle
 
 
