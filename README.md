@@ -50,4 +50,8 @@ https://classroom.udacity.com/courses/ud1110
 ### Project:
 Snowflakes by Turtle
 
-
+## Day 6
+### Project:
+Turtle Race Game \
+You can refer the video below. Please use Function (def) for your project. \
+https://www.youtube.com/watch?v=qOsbvj87Uos
