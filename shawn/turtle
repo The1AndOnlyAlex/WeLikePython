@@ -82,7 +82,10 @@ s.backward(10)
 s.right(90)
 s.forward(25)
 
-#race
+##race
+
+
+
 import turtle
 import time
 from turtle import Turtle
@@ -111,3 +114,11 @@ turtle.right(90)
 turtle.forward(300)
 turtle.right(90)
 turtle.end_fill()
+#finish
+stamp_size=20
+sqaure_size=15
+finish_line=200
+turtle.shape("square")
+turtle.shapesize(sqaure_size/stamp_size)
+turtle.color("black")
+turtle.penup()
