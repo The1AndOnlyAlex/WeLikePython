@@ -81,3 +81,17 @@ s.forward(10)
 s.backward(10)
 s.right(90)
 s.forward(25)
+
+#race
+import turtle
+import time
+from turtle import Turtle
+from random inport randint
+#the setup
+window = turtle.Screen()
+window.title("turtle race")
+turtle.bgcolor("black")
+turtle.color("white")
+turtle.speed(0)
+turtle.penup
+
