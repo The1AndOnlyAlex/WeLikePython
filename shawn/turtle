@@ -86,7 +86,7 @@ s.forward(25)
 import turtle
 import time
 from turtle import Turtle
-from random inport randint
+from random import randint
 #the setup
 window = turtle.Screen()
 window.title("turtle race")
@@ -94,4 +94,6 @@ turtle.bgcolor("black")
 turtle.color("white")
 turtle.speed(0)
 turtle.penup
-
+turtle.setpos(-140,200)
+turtle.write("Turtle race", font =("times new roman", 30))
+turtle.penup()
