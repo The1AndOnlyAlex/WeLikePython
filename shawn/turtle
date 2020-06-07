@@ -85,7 +85,6 @@ s.forward(25)
 ##race
 
 
-
 import turtle
 import time
 from turtle import Turtle
@@ -93,7 +92,7 @@ from random import randint
 #the setup
 window = turtle.Screen()
 window.title("turtle race")
-turtle.bgcolor("black")
+turtle.bgcolor("forest green")
 turtle.color("white")
 turtle.speed(0)
 turtle.penup()
@@ -114,11 +113,23 @@ turtle.right(90)
 turtle.forward(300)
 turtle.right(90)
 turtle.end_fill()
-#finish
+##finish
 stamp_size=20
-sqaure_size=15
+square_size=15
 finish_line=200
-turtle.shape("square")
-turtle.shapesize(sqaure_size/stamp_size)
 turtle.color("black")
+turtle.shape("square")
+turtle.shapesize(square_size/stamp_size)
+
 turtle.penup()
+
+for i in range(10):
+  turtle.setpos(100, (150-(i*square_size*2)))
+  turtle.stamp()
+  for j in range(10):
+    turtle.setpos(100+square_size, ((150-square_size)-(j*square_size*2)))
+    turtle.stamp()
+
+
+
+turtle.hideturtle() 
