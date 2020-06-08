@@ -83,6 +83,8 @@ s.right(90)
 s.forward(25)
 
 ##race
+
+##race
 import turtle
 import time
 from turtle import Turtle
@@ -140,29 +142,6 @@ s1.penup()
 s1.goto(-125,75)
 s1.pendown()
 #turtle 2
-s1 = Turtle()
-s1.speed(0)
-s1.color=("grey")
-s1.shape("turtle")
-s1.penup()
-s1.goto(-125,50)
-s1.pendown()
-#turtle 3
-s1 = Turtle()
-s1.speed(0)
-s1.color=("orange")
-s1.shape("turtle")
-s1.penup()
-s1.goto(-125,25)
-s1.pendown()
-#turtle 4
-s1 = Turtle()
-s1.speed(0)
-s1.color=("teal")
-s1.shape("turtle")
-s1.penup()
-s1.goto(-125,0)
-s1.pendown()
 #turtle 2
 s2 = Turtle()
 s2.speed(0)
@@ -188,9 +167,9 @@ s4.penup()
 s4.goto(-125,0)
 s4.pendown()
 time.sleep(1)# a pause
-for i in range(45):
-  s1.forward(randint(1,5)
-  s2.forward(randint(1,5)
-  s3.forward(randint(1,5)
-  s4.forward(randint(1,5)
+for i in range(60):
+  s1.forward(randint(1,5))
+  s2.forward(randint(1,5))
+  s3.forward(randint(1,5))
+  s4.forward(randint(1,5))
 turtle.exitonclick()  
