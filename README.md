@@ -55,3 +55,7 @@ Snowflakes by Turtle
 Turtle Race Game \
 You can refer the video below. Please use Function (def) for your project. \
 https://www.youtube.com/watch?v=qOsbvj87Uos
+
+## Day 7
+### Project review
+Turtle Race Game
