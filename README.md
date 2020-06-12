@@ -59,3 +59,12 @@ https://www.youtube.com/watch?v=qOsbvj87Uos
 ## Day 7 & 8
 ### Project review
 Turtle Race Game
+
+## Day 9
+### Lecture
+Events of Keyboard and Mouse with Turtle
+https://www.youtube.com/watch?v=hPnZqWSRNZI \
+https://www.youtube.com/watch?v=HRKQlEfEMCA
+
+### Project
+Type your name by keyboard; and sign it by mouse.
