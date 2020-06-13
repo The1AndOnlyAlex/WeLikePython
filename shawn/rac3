@@ -88,12 +88,24 @@ for i in range(80):
   s4.forward(randint(1,5))
 turtle.exitonclick()
 if s1.pos==(100,75):
-  print("s1 win")
+  turtle.speed(0)
+  turtle.penup()
+  turtle.setpos(140,150)
+  turtle.write("s1 finish", font =("times new roman", 30))
 elif s2.pos==(100,50):
-  print("s2 win") 
+  turtle.speed(0)
+  turtle.penup()
+  turtle.setpos(100,150)
+  turtle.write("s2 finish", font =("times new roman", 30))
 elif s3.pos==(100,25):
-  print("s3 win")
+  turtle.speed(0)
+  turtle.penup()
+  turtle.setpos(60,150)
+  turtle.write("s3 finish", font =("times new roman", 30))
 elif s4.pos==(100,0):
-  print("s4 win")    
+  turtle.speed(0)
+  turtle.penup()
+  turtle.setpos(20,150)
+  turtle.write("s4 finish", font =("times new roman", 30))   
 else:
   print("error") 
