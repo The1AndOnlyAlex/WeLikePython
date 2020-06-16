@@ -3,6 +3,12 @@ import time
 from turtle import Turtle
 from random import randint
 #the setup
+word = "Turtle race"
+
+def some_function():
+    print(word)
+
+
 window = turtle.Screen()
 window.title("turtle race")
 turtle.bgcolor("forest green")
@@ -10,7 +16,7 @@ turtle.color("white")
 turtle.speed(0)
 turtle.penup()
 turtle.setpos(-140,150)
-turtle.write("Turtle race", font =("times new roman", 30))
+turtle.write(some_function, font =("times new roman", 30))
 turtle.penup()
 #char
 turtle.setpos(-400,-180)
@@ -86,29 +92,7 @@ for i in range(80):
   s3.forward(randint(1,5))
   s4.forward(randint(1,5))
 turtle.exitonclick()
-if s1.pos==(100,75):
-  turtle.speed(0)
-  turtle.penup()
-  turtle.setpos(140,150)
-  turtle.write("s1 finish", font =("times new roman", 30))
-elif s2.pos==(100,50):
-  turtle.speed(0)
-  turtle.penup()
-  turtle.setpos(100,150)
-  turtle.write("s2 finish", font =("times new roman", 30))
-elif s3.pos==(100,25):
-  turtle.speed(0)
-  turtle.penup()
-  turtle.setpos(60,150)
-  turtle.write("s3 finish", font =("times new roman", 30))
-elif s4.pos==(100,0):
-  turtle.speed(0)
-  turtle.penup()
-  turtle.setpos(20,150)
-  turtle.write("s4 finish", font =("times new roman", 30))   
-else:
-  print("error") 
-#what would happen if I did define text
-def text:
-  return(font= "times new roman")
-  
+
+
+
+def()
