@@ -62,7 +62,7 @@ Turtle Race Game
 
 ## Day 9
 ### Lecture
-Events of Keyboard and Mouse with Turtle
+Events of Keyboard and Mouse with Turtle \
 https://www.youtube.com/watch?v=hPnZqWSRNZI \
 https://www.youtube.com/watch?v=HRKQlEfEMCA
 
