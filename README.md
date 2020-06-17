@@ -71,9 +71,9 @@ Type your name by keyboard; and sign it by mouse.
 
 ## Day 10
 ### Lecture
-#### How to use Github \
-https://guides.github.com/activities/hello-world/ \
-#### Build a maze \
+#### How to use Github 
+https://guides.github.com/activities/hello-world/ 
+#### Build a maze 
 https://github.com/boppreh/maze
 
 ### Project
