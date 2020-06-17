@@ -68,3 +68,14 @@ https://www.youtube.com/watch?v=HRKQlEfEMCA
 
 ### Project
 Type your name by keyboard; and sign it by mouse.
+
+## Day 10
+### Lecture
+#### How to use Github \
+https://guides.github.com/activities/hello-world/ \
+#### Build a maze \
+https://github.com/boppreh/maze
+
+### Project
+Use the Mouse or Keyboard to solve a maze. \
+Optional: allow two people to play together by using different control keys.
