@@ -94,5 +94,33 @@ for i in range(80):
 turtle.exitonclick()
 
 
+if s1.pos=(100,75):
 
-def()
+  s2.speed(0)
+  s3.speed(0)
+  s4.speed(0)
+  turtle.setpos(140,150)
+  turtle.write("s1 win", font =("times new roman", 30))
+elif s2.pos=(100,50):
+  print("s2 win")
+  s2.speed(0)
+  s3.speed(0)
+  s4.speed(0)
+  turtle.setpos(140,150)
+  turtle.write("s2 win", font =("times new roman", 30))
+elif s3.pos=(100,25):
+  print("s3 win")
+  s2.speed(0)
+  s3.speed(0)
+  s4.speed(0) 
+  turtle.setpos(140,150)
+  turtle.write("s3 win", font =("times new roman", 30))    
+elif s4.pos=(100,0):
+  print("s4 win")
+  s2.speed(0)
+  s3.speed(0)
+  s4.speed(0)
+  turtle.setpos(140,150)
+  turtle.write("s4 win", font =("times new roman", 30))  
+else:
+  print("error")     
