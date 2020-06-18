@@ -1,0 +1,97 @@
+import time
+import turtle
+from turtle import Turtle
+from random import randint
+
+
+
+finish_line = 200
+
+###########################################
+def setEnv():
+    window = turtle.Screen()
+    #window.title("TURTLE RACE")
+    t = turtle.Turtle()
+    window.bgcolor("yellow")
+    t.color("pink")
+    t.speed(0)
+    t.penup()
+    t.setpos(-140, 180)
+    t.write("TURTLE RACE", font = ("Arial", 30, "bold"))
+    t.penup()
+
+    t.setpos(-400, -180)
+    t.color("cyan")
+    t.begin_fill()
+    t.pendown()
+    t.forward(800)
+    t.right(90)
+    t.forward(300)
+    t.right(90)
+    t.forward(800)
+    t.right(90)
+    t.forward(300)
+    t.end_fill()
+
+    stamp_size = 20
+    square_size = 15
+
+    t.color("black")
+    t.shape("square")
+    #t.shapesize(square_size / stamp_size)
+    t.penup()
+
+    for i in range(10):
+        t.setpos(finish_line, (150 - (i * square_size * 2)))
+        t.stamp()
+
+    for j in range(10):
+        t.setpos(finish_line + square_size, ((150 - square_size) - (j * square_size * 2)))
+        t.stamp()
+
+    t.hideturtle()
+
+########################################################
+def creatturtle(a, x, y, color):
+    a.speed(0)
+    #a.color(color)
+    a.color(randint(1, 255),
+        randint(1, 255),
+        randint(1, 255))
+    a.shape("turtle")
+    a.penup()
+    a.goto(x, y)
+    a.pendown()
+
+#########################################################
+def run(a):
+    #for i in range(145):
+    done = 0
+    while(done == 0):
+        for t in a:
+            t.forward(randint(1, 5))
+            if t.pos()[0] >= finish_line-27:
+                t.write("Won", 
+                font = ("Arial", 20, "bold"))
+                done = 1;
+                break;
+
+
+
+
+
+################ main ######################
+setEnv()
+
+t1 = turtle.Turtle()
+creatturtle(t1, -200, 100, "red")
+t2 = turtle.Turtle()
+creatturtle(t2, -200, 50, "aqua")
+t3 = turtle.Turtle()
+creatturtle(t3, -200, 0, "forestgreen")
+t4 = turtle.Turtle()
+creatturtle(t4, -200, -50, "magenta")
+
+time.sleep(1)
+
+run([t1,t2, t3, t4])
