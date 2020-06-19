@@ -5,19 +5,35 @@ s=turtle.Turtle()
 s.speed(0)
 tim.width(5)
 colors= ['red', 'blue', 'green', 'pruple', 'yellow', 'orange','black']
-def up():
-##let mouse go up
-  s.setheading(90)
-  s.forward(100)
-def down():
-  s.setheading(180)
-  s.forward(100)
-##let mouse go down
-def left():
-  s.setheading(270)
-  s.forward(100)
-##let mouse go left
-def right():
-  s.setheading(0)
-  s.forward(100)
-##let mouse go right
+def setup():  
+  def up():
+  ##let mouse go up
+    s.setheading(90)
+    s.forward(100)
+  def down():
+    s.setheading(180)
+    s.forward(100)
+  ##let mouse go down
+  def left():
+    s.setheading(270)
+    s.forward(100)
+  ##let mouse go left
+  def right():
+    s.setheading(0)
+    s.forward(100)
+   def clickleft(x,y):
+      s.color(random.choice(colors))
+    def clickright(x,y):
+     s.stamp
+    turtle.onscreenclick(clickleft, 1) 
+
+    turtle.onscreenclick(clickright, 3) 
+  ##let mouse go right
+  turtle.listen()
+
+  turtle.onkey(up, 'Up')
+  turtle.onkey(down, 'Down')
+  turtle.onkey(left, 'Left')
+  turtle.onkey(right, 'Right')
+  turtle.mainloop()
+setup()
