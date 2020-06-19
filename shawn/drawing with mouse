@@ -14,3 +14,7 @@ def setup():
     t.clear()
   def main():
     turtle.listen()
+    s.ondrag(dragging)
+    turtle.onscreenclick(clickright(), 3)
+    screen.mainloop()
+setup()    
