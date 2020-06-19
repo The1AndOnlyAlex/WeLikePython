@@ -1,0 +1,16 @@
+import turtle
+from turtle import *
+from turtle import Turtle, Screen
+def setup():
+  screen=Screen()
+  s=Turtle("circle")
+  s.speed(-1)
+  def drag(x,y):
+    s.ondrag(none)
+    s.heading(s.towards(x,y))
+    s.goto(x,y)
+    s.ondrag(dragging) 
+  def clickright():
+    t.clear()
+  def main():
+    turtle.listen()
