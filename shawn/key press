@@ -1,0 +1,23 @@
+import turtle
+import random
+from turtle import *
+s=turtle.Turtle()
+s.speed(0)
+tim.width(5)
+colors= ['red', 'blue', 'green', 'pruple', 'yellow', 'orange','black']
+def up():
+##let mouse go up
+  s.setheading(90)
+  s.forward(100)
+def down():
+  s.setheading(180)
+  s.forward(100)
+##let mouse go down
+def left():
+  s.setheading(270)
+  s.forward(100)
+##let mouse go left
+def right():
+  s.setheading(0)
+  s.forward(100)
+##let mouse go right
