@@ -96,9 +96,7 @@ enviroment()
 while true:
   s1.forward(randint(1,5))
   #turtle.exitonclick()
-  #
-  #
-  #
+ 
 
   if s1.pos[0]>=(100):
     turtle.color("white")
