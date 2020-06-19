@@ -1,5 +1,5 @@
 import turtle
-from turtle import *
+
 from turtle import Turtle, Screen
 def setup():
   screen=Screen()
@@ -17,4 +17,5 @@ def setup():
     s.ondrag(dragging)
     turtle.onscreenclick(clickright(), 3)
     screen.mainloop()
+  main()
 setup()    
