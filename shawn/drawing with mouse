@@ -1,24 +1,27 @@
 import turtle
 
 from turtle import Turtle, Screen
-def setup():
-  screen=Screen()
-  s=Turtle("turtle")
-  s.speed(-1)
-  def drag(x,y):
-    s.ondrag(None)
-    s.heading(s.towards(x,y))
-    s.goto(x,y)
-    s.ondrag(dragging) 
-  def clickright():
-    t.clear()
-  def main():
-    turtle.listen()
-    
-    s.ondrag(dragging)
-    
-    turtle.onscreenclick(clickright(), 3)
-    
-    screen.mainloop()
-  main()
-setup()    
+
+screen=Screen()
+s=Turtle("turtle")
+s.speed(-1)
+
+
+def draging(x,y):
+  s.ondrag(None)
+  s.heading(s.towards(x,y))
+  s.goto(x,y)
+  s.ondrag(draging) 
+def clickright():
+  s.clear()
+def main():
+  s.listen()
+  
+  s.ondrag(draging)
+  
+  s.onscreenclick(clickright(), 3)
+  
+  screen.mainloop()
+main()
+
+   
