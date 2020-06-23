@@ -9,7 +9,7 @@ s.speed(-1)
 
 def dragging(x,y):
   s.ondrag(None)
-  s.heading(s.towards(x,y))
+  s.setheading(s.towards(x,y))
   s.goto(x,y)
   s.ondrag(dragging) 
   
