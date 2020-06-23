@@ -69,6 +69,7 @@ def creatturtle(a, x, y, color):
 #########################################################
 def run(a):
     #for i in range(145):
+    #while true:
     done = 0
     while(done == 0):
         for t in a:
@@ -84,8 +85,8 @@ def run(a):
 
 
 ################ main ######################
-setEnv()
 
+enviroment()
 t1 = turtle.Turtle()
 creatturtle(t1, -200, 100, "red")
 t2 = turtle.Turtle()
@@ -98,14 +99,3 @@ creatturtle(t4, -200, -50, "magenta")
 time.sleep(1)
 
 run([t1,t2, t3, t4])
-enviroment()
-
-
-
-
-
-
-
-
-
-
