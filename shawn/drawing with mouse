@@ -1,28 +1,28 @@
 import turtle
+from turtle import Turtle
+from turtle import Screen
 
-from turtle import Turtle, Screen
+screen = Screen()
+t = Turtle("turtle")
 
 screen=Screen()
 s = Turtle("turtle")
 s.speed(-1)
 
 
-def dragging(x,y):
-  s.ondrag(None)
-  s.setheading(s.towards(x,y))
-  s.goto(x,y)
-  s.ondrag(dragging) 
-  
-def clickright(x,y):
-  s.clear()
-  
-def main():
-  turtle.listen()
-  
-  s.ondrag(dragging)
-  
-  turtle.onscreenclick(clickright, 3)
-  
-  screen.mainloop()
-  
+def dragging(x, y):  # These parameters will be the mouse position
+    t.ondrag(None)
+    t.setheading(t.towards(x, y))
+    t.goto(x, y)
+    t.ondrag(dragging)
+
+def clickRight():
+    t.clear()
+def main():  # This will run the program
+    turtle.listen()
+    
+    t.ondrag(dragging)  # When we drag the turtle object call dragging
+    turtle.onscreenclick(clickRight, 3)
+
+    screen.mainloop()  # This will continue running main() 
 main()
