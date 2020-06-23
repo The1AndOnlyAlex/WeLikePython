@@ -55,7 +55,7 @@ def enviroment:
 
   turtle.hideturtle()
 ############can be for enviroment
-
+for 
 #turtle 1
 s1 = Turtle()
 s1.speed(0)
