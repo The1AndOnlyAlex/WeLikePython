@@ -15,11 +15,11 @@ def dragigng(x,y):
 def clickright(x,y):
   s.clear()
 def main():
-  s.listen()
+  turtle.listen()
   
   s.ondrag(dragging)
   
-  s.onscreenclick(clickright(), 3)
+  turtle.onscreenclick(clickright(), 3)
   
   screen.mainloop()
   
