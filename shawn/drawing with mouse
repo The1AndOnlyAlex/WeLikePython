@@ -12,8 +12,10 @@ def dragigng(x,y):
   s.heading(s.towards(x,y))
   s.goto(x,y)
   s.ondrag(dragging) 
+  
 def clickright(x,y):
   s.clear()
+  
 def main():
   turtle.listen()
   
