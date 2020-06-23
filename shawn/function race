@@ -55,133 +55,50 @@ def enviroment():
 
   turtle.hideturtle()
 ############can be for enviroment
-playable =['s1','s2','s3', 's4']
-def turtle_stat():
-#turtle 1
-  s1 = Turtle()
-  s1.speed(0)
-  s1.color("brown")
-  s1.shape("turtle")
-  s1.penup()
-  s1.goto(-125,75)
-  s1.pendown()
-  #turtle 2
-  #turtle 2
-  s2 = Turtle()
-  s2.speed(0)
-  s2.color("grey")
-  s2.shape("turtle")
-  s2.penup()
-  s2.goto(-125,50)
-  s2.pendown()
-  #turtle 3
-  s3 = Turtle()
-  s3.speed(0)
-  s3.color("orange")
-  s3.shape("turtle")
-  s3.penup()
-  s3.goto(-125,25)
-  s3.pendown()
-  #turtle 4
-  s4 = Turtle()
-  s4.speed(0)
-  s4.color("teal")
-  s4.shape("turtle")
-  s4.penup()
-  s4.goto(-125,0)
-  s4.pendown()
-time.sleep(1)# a pause
-####for loop + function
+def creatturtle(a, x, y, color):
+    a.speed(0)
+    #a.color(color)
+    a.color(randint(1, 255),
+        randint(1, 255),
+        randint(1, 255))
+    a.shape("turtle")
+    a.penup()
+    a.goto(x, y)
+    a.pendown()
 
+#########################################################
+def run(a):
+    #for i in range(145):
+    done = 0
+    while(done == 0):
+        for t in a:
+            t.forward(randint(1, 5))
+            if t.pos()[0] >= finish_line-27:
+                t.write("Won", 
+                font = ("Arial", 20, "bold"))
+                done = 1;
+                break;
+
+
+
+
+
+################ main ######################
+setEnv()
+
+t1 = turtle.Turtle()
+creatturtle(t1, -200, 100, "red")
+t2 = turtle.Turtle()
+creatturtle(t2, -200, 50, "aqua")
+t3 = turtle.Turtle()
+creatturtle(t3, -200, 0, "forestgreen")
+t4 = turtle.Turtle()
+creatturtle(t4, -200, -50, "magenta")
+
+time.sleep(1)
+
+run([t1,t2, t3, t4])
 enviroment()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-while true:
-  s1.forward(randint(1,5))
-  #turtle.exitonclick()
- 
-
-  if s1.pos[0]>=(100):
-    turtle.color("white")
-    turtle.speed(0)
-    turtle.penup()
-    turtle.setpos(40,150)
-    turtle.write("s1 win", font =("times new roman", 30))
-    break
-
-s2.forward(randint(1,5))
-if s2.pos>=(100,50):
-  print("s2 win")
-  s2.speed(0)
-  s3.speed(0)
-  s4.speed(0)
-  turtle.color("white")
-  turtle.speed(0)
-  turtle.penup()
-  turtle.setpos(40,150)
-  turtle.write("s1 win", font =("times new roman", 30))
-
-
-s3.forward(randint(1,5))
-elif s3.pos=(100,25):
-  print("s3 win")
-  s2.speed(0)
-  s3.speed(0)
-  s4.speed(0) 
-  turtle.color("white")
-  turtle.speed(0)
-  turtle.penup()
-  turtle.setpos(140,150)
-  turtle.write("s1 win", font =("times new roman", 30)) 
-
-
-
-s4.forward(randint(1,5))
-elif s4.pos=(100,0):
-  print("s4 win")
-  s2.speed(0)
-  s3.speed(0)
-  s4.speed(0)
-  turtle.color("white")
-  turtle.speed(0)
-  turtle.penup()
-  turtle.setpos(140,150)
-  turtle.write("s1 win", font =("times new roman", 30))
-else:
-  print("error")     
-
-
-
 
 
 
