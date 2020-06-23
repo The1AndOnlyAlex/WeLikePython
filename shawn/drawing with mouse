@@ -7,7 +7,7 @@ s = Turtle("turtle")
 s.speed(-1)
 
 
-def dragigng(x,y):
+def dragging(x,y):
   s.ondrag(None)
   s.heading(s.towards(x,y))
   s.goto(x,y)
@@ -21,7 +21,7 @@ def main():
   
   s.ondrag(dragging)
   
-  turtle.onscreenclick(clickright(), 3)
+  turtle.onscreenclick(clickright, 3)
   
   screen.mainloop()
   
