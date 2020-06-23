@@ -1,6 +1,13 @@
 import turtle
 import random
 from turtle import *
+name = input('enter a name:')
+s2=turtle.Turtle()
+s2.color('deep pink')
+style = ('times new roman', 30, 'italic')
+s2.write(name, font=style)
+s2.hideturtle()
+
 s=turtle.Turtle()
 s.speed(0)
 s.width(5)
@@ -9,25 +16,26 @@ def setup():
   def up():
   ##let mouse go up
     s.setheading(90)
-    s.forward(100)
-  def left():
-    s.setheading(180)
-    s.forward(100)
-  ##let mouse go down
+    s.forward(10)
   def down():
     s.setheading(270)
-    s.forward(100)
+    s.forward(10)
+  ##let mouse go down
+  def left():
+    s.setheading(180)
+    s.forward(10)
   ##let mouse go left
   def right():
     s.setheading(0)
-    s.forward(100)
+    s.forward(10)
   def clickleft(x,y):
-      s.color(random.choice(colors))
+    s.color(random.choice(colors))
   def clickright(x,y):
-     s.stamp
-  turtle.onscreenclick(clickleft, 1) 
+    s.stamp
+    turtle.onscreenclick(clickleft, 1) 
 
-  turtle.onscreenclick(clickright, 3) 
+    turtle.onscreenclick(clickright, 3) 
+  
   ##let mouse go right
   turtle.listen()
 
@@ -37,3 +45,5 @@ def setup():
   turtle.onkey(right, 'Right')
   turtle.mainloop()
 setup()
+
+
