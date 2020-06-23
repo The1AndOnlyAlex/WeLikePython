@@ -3,7 +3,7 @@ import turtle
 from turtle import Turtle, Screen
 
 screen=Screen()
-s=Turtle("turtle")
+s = Turtle("turtle")
 s.speed(-1)
 
 
@@ -12,7 +12,7 @@ def dragigng(x,y):
   s.heading(s.towards(x,y))
   s.goto(x,y)
   s.ondrag(dragging) 
-def clickright():
+def clickright(x,y):
   s.clear()
 def main():
   s.listen()
@@ -22,6 +22,5 @@ def main():
   s.onscreenclick(clickright(), 3)
   
   screen.mainloop()
+  
 main()
-
-   
