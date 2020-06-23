@@ -8,7 +8,7 @@ word = "Turtle race"
 def some_function():
     print(word)
 
-def enviroment:
+def enviroment():
   window = turtle.Screen()  
   window.title("turtle race")
   turtle.bgcolor("forest green")
@@ -21,78 +21,111 @@ def enviroment:
 
   #char
   def finish_line:
-  turtle.setpos(-400,-180)
-  turtle.color("red")
-  turtle.begin_fill()
-  turtle.pendown()
-  turtle.forward(800)
-  turtle.right(90)
-  turtle.forward(300)
-  turtle.right(90)
-  turtle.forward(800)
-  turtle.right(90)
-  turtle.forward(300)
-  turtle.right(90)
-  turtle.end_fill()
-  ##finish
-  stamp_size=20
-  square_size=15
-  finish_line=200
-  turtle.color("black")
-  turtle.shape("square")
-  turtle.shapesize(square_size/stamp_size)
+    turtle.setpos(-400,-180)
+    turtle.color("red")
+    turtle.begin_fill()
+    turtle.pendown()
+    turtle.forward(800)
+    turtle.right(90)
+    turtle.forward(300)
+    turtle.right(90)
+    turtle.forward(800)
+    turtle.right(90)
+    turtle.forward(300)
+    turtle.right(90)
+    turtle.end_fill()
+    ##finish
+    stamp_size=20
+    square_size=15
+    finish_line=200
+    turtle.color("black")
+    turtle.shape("square")
+    turtle.shapesize(square_size/stamp_size)
 
-  turtle.penup()
+    turtle.penup()
 
-  for i in range(10):
-    turtle.setpos(100, (150-(i*square_size*2)))
-    turtle.stamp()
-    for j in range(10):
-      turtle.setpos(100+square_size, ((150-square_size)-(j*square_size*2)))
+    for i in range(10):
+      turtle.setpos(100, (150-(i*square_size*2)))
       turtle.stamp()
+      for j in range(10):
+        turtle.setpos(100+square_size, ((150-square_size)-(j*square_size*2)))
+        turtle.stamp()
 
 
 
   turtle.hideturtle()
 ############can be for enviroment
-for 
+playable =['s1','s2','s3', 's4']
+def turtle_stat():
 #turtle 1
-s1 = Turtle()
-s1.speed(0)
-s1.color("brown")
-s1.shape("turtle")
-s1.penup()
-s1.goto(-125,75)
-s1.pendown()
-#turtle 2
-#turtle 2
-s2 = Turtle()
-s2.speed(0)
-s2.color("grey")
-s2.shape("turtle")
-s2.penup()
-s2.goto(-125,50)
-s2.pendown()
-#turtle 3
-s3 = Turtle()
-s3.speed(0)
-s3.color("orange")
-s3.shape("turtle")
-s3.penup()
-s3.goto(-125,25)
-s3.pendown()
-#turtle 4
-s4 = Turtle()
-s4.speed(0)
-s4.color("teal")
-s4.shape("turtle")
-s4.penup()
-s4.goto(-125,0)
-s4.pendown()
+  s1 = Turtle()
+  s1.speed(0)
+  s1.color("brown")
+  s1.shape("turtle")
+  s1.penup()
+  s1.goto(-125,75)
+  s1.pendown()
+  #turtle 2
+  #turtle 2
+  s2 = Turtle()
+  s2.speed(0)
+  s2.color("grey")
+  s2.shape("turtle")
+  s2.penup()
+  s2.goto(-125,50)
+  s2.pendown()
+  #turtle 3
+  s3 = Turtle()
+  s3.speed(0)
+  s3.color("orange")
+  s3.shape("turtle")
+  s3.penup()
+  s3.goto(-125,25)
+  s3.pendown()
+  #turtle 4
+  s4 = Turtle()
+  s4.speed(0)
+  s4.color("teal")
+  s4.shape("turtle")
+  s4.penup()
+  s4.goto(-125,0)
+  s4.pendown()
 time.sleep(1)# a pause
 ####for loop + function
 
 enviroment()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 while true:
   s1.forward(randint(1,5))
   #turtle.exitonclick()
@@ -146,3 +179,16 @@ elif s4.pos=(100,0):
   turtle.write("s1 win", font =("times new roman", 30))
 else:
   print("error")     
+
+
+
+
+
+
+
+
+
+
+
+
+
