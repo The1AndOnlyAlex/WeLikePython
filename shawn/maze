@@ -1,0 +1,18 @@
+
+def setup():  
+  def up():
+  ##let mouse go up
+    s.setheading(90)
+    s.forward(10)
+  def left():
+    s.setheading(180)
+    s.forward(10)
+  ##let mouse go down
+  def down():
+    s.setheading(270)
+    s.forward(10)
+  ##let mouse go left
+  def right():
+    s.setheading(0)
+    s.forward(10)
+setup()
