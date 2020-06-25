@@ -2,6 +2,7 @@ import turtle
 from turtle import *
 s= turtle.Turtle
 def setup():  
+  s.penup()
   def up():
   ##let mouse go up
     s.setheading(90)
@@ -49,4 +50,4 @@ def maze():
   print("│   │                                       │                   │       │")
   print("└───┴───────────────────────────────────────┴───────────────────┴───────┘")
   
-turtle.write(maze(), font =("times new roman", 30))
+turtle.write(maze, font =("times new roman", 20))
