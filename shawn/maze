@@ -26,25 +26,5 @@ def setup():
 def maze():
 
  
-  turtle.write("┌───┬───────────────┬───────────────────┬───────────────────┬───────────┐", font =("times new roman", 20))
-  turtle.write("│   │               │                   │                   │           │", font =("times new roman", 20))
-  turtle.write("│   │   ┌───┐   ╷   │   ┌───┐   ╷   ┌───┘   ┌───────┐   ╷   └───╴   ╷   │", font =("times new roman", 20))
-  turtle.write("│   │   │   │   │   │   │   │   │   │       │       │   │           │   │", font =("times new roman", 20))
-  turtle.write("│   ╵   │   │   ├───┘   │   │   │   ╵   ┌───┘   ╷   ╵   ├───────┬───┘   │", font =("times new roman", 20))
-  turtle.write("│   ╵   │   │   ├───┘   │   │   │   ╵   ┌───┘   ╷   ╵   ├───────┬───┘   │", font =("times new roman", 20))
-  turtle.write("│       │   │   │       │   │   │       │       │       │       │       │", font =("times new roman", 20))
-  turtle.write("│   ┌───┘   │   ╵   ┌───┤   └───┴───────┤   ┌───┴───────┤   ╷   ╵   ╶───┤", font =("times new roman", 20))
-  turtle.write("│   │       │       │   │               │   │           │   │           │", font =("times new roman", 20))
-  turtle.write("│   └───╴   └───┬───┘   ├───┬───────╴   │   │   ╶───┐   ├───┴───┬───┐   │", font =("times new roman", 20))
-  turtle.write("│               │       │   │           │   │   |   │   │       │   │   │", font =("times new roman", 20))
-  turtle.write("│       │   │   │       │                       │   │       │       │   │", font =("times new roman", 20))
-  turtle.write("│   ┌───┘   ├───────┬───┬───╴   │   │   ╶───┬───┘   └───────┐   ╵   ╷   │", font =("times new roman", 20))
-  turtle.write("│   │       │       │   │       │   │       │ $             │       │   │", font =("times new roman", 20))
-  turtle.write("│   │       │       │   │       │   │       │               │       │   │", font =("times new roman", 20))
-  turtle.write("│   └───┐   ╵   ╷   ╵   │   ╶───┘   ├───┐   └───┐   ╶───┐   └───┬───┤   │", font =("times new roman", 20))
-  turtle.write("│   ╷   └───────┴───────┴───────╴   ╵   └───┐   └───────┴───╴   │   ╵   │", font =("times new roman", 20))
-  turtle.write("│   │                                       │                   │       │", font =("times new roman", 20))
-  turtle.write("│   └───┐   │   ┌───────┤   ╶───┴───────────────┤   ┌───╴   │   ╶───┐   │", font =("times new roman", 20))
-  turtle.write("│       └───┐   │   ┌───────┤   ╶───┴───────────────┤┌───╴  │   ╶───┐   │", font =("times new roman", 20))
-  turtle.write("└───┴───────────────────────────────────────┴───────────────────┴───────┘", font =("times new roman", 20))
+
 maze()
