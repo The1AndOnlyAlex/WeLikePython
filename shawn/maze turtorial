@@ -1,4 +1,6 @@
-
+import turtle
+from turtle import *
+s= turtle.Turtle
 wn=turtle.Screen
 wn.title("a maze")
 wn.size(700,700)
@@ -8,3 +10,16 @@ class Pen(turtle.Turtle):
     self.color("black")
     self.penup()
     self.speed(0)
+levels = [""]
+level_1 = [
+"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+"x  xxxxxxxxxxxxxxx     xxx xxx  xxxxx",
+"x    xxxx  xx    xxxxxx      x  xxxxx",
+"x xxxxxxxxxxx xx x  xx  xx  xxx xxxxx",
+"x    xxxxxxxxxxxxxxxxxx      xx xxxxx",
+"x    xxxx  xxxx  x  xxxx   xxxxxxxxxx",
+"x    xxxx  xxxx  x  xx      xx  xxxxx",
+"x    xxxx  xxxx  x  xx      xx  xxxxx",
+"x    xxxx  xxxx  x  xx  x       xxxxx",
+"x    xxxx  xxxx  x  xx  xx      xxxxx",
+"xxxxxxxxxxxxxxxxxxxxxxxxxxxxx xxxxxxx",
