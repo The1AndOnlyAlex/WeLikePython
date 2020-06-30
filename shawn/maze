@@ -1,6 +1,22 @@
 import turtle
 from turtle import *
 s= turtle.Turtle
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def setup():  
   s.penup()
   def up():
