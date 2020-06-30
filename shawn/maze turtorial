@@ -1,1 +1,10 @@
 
+wn=turtle.Screen
+wn.title("a maze")
+wn.size(700,700)
+class Pen(turtle.Turtle):
+  def__init__(self):
+    turtle.Turtle(__init__(self))
+    self.color("black")
+    self.penup()
+    self.speed(0)
