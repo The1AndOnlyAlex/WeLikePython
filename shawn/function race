@@ -1,3 +1,4 @@
+
 import turtle
 import time
 from turtle import Turtle
@@ -20,7 +21,7 @@ def enviroment():
   turtle.penup()
 
   #char
-  def finish_line:
+  def finish_line():
     turtle.setpos(-400,-180)
     turtle.color("red")
     turtle.begin_fill()
@@ -99,3 +100,4 @@ creatturtle(t4, -200, -50, "magenta")
 time.sleep(1)
 
 run([t1,t2, t3, t4])
+
