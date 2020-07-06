@@ -9,8 +9,8 @@ intro()
 
  
 
-  if(user_input != playable[3]):
-    if(user_input == playable[0]):
+  if(user_input != 'exit'):
+    if(user_input == 'rock'):
         if(computer_input== 2):
            print("computer put sissor")
            print("you win")  
@@ -29,7 +29,7 @@ intro()
            print("you loss")  
            print("if you want to continue")
            print("put in rock,paper,sissors,or exit")        
-    elif(user_input==playable[1]):
+    elif(user_input=='paper'):
         if(computer_input== 1):
            print("computer put paper")
            print("you win")  
@@ -45,7 +45,7 @@ intro()
            print("you loss")  
            print("if you want to continue")
            print("put in rock,paper,sissors,or exit")
-    elif(user_input==playable[2]):
+    elif(user_input=='sissor'):
          if(computer_input== 3):
            print("computer put rock")
            print("you win")  
